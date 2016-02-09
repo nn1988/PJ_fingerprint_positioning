@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="nan" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/nan" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="obj\sqlite3.lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/nan" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add library="bin\OLE32.LIB" />
+		</Linker>
+		<Unit filename="Cov.cpp" />
+		<Unit filename="Cov.h" />
+		<Unit filename="DBoperate.cpp" />
+		<Unit filename="DBoperate.h" />
+		<Unit filename="FpCreate.cpp" />
+		<Unit filename="FpCreate.h" />
+		<Unit filename="IrregularGrid.cpp" />
+		<Unit filename="IrregularGrid.h" />
+		<Unit filename="Matrix.cpp" />
+		<Unit filename="Matrix.h" />
+		<Unit filename="SigCreate.cpp" />
+		<Unit filename="SigCreate.h" />
+		<Unit filename="SimCal.cpp" />
+		<Unit filename="SimCal.h" />
+		<Unit filename="dataDef.h" />
+		<Unit filename="nan.cpp" />
+		<Unit filename="sqlite3.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
