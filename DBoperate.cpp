@@ -568,7 +568,7 @@ bool compare(const stuMean& t1, const stuMean& t2)
     return t1.dbMean > t2.dbMean;
 }
 
-bool CDBoperate::SelectMean()//目前使用的版本，直接取值。
+bool CDBoperate::SelectMean() //目前使用的版本，直接取值。
 {
     sqlite3_stmt *stmt = NULL;
     const char *err_msg = NULL;

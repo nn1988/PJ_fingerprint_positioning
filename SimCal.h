@@ -5,29 +5,24 @@
 #include "sqlite3.h"
 #include "Matrix.h"
 #include "IrregularGrid.h"
-#include "eigen3/Eigen/Dense"
 
-using namespace Eigen;
-
-struct MinMean
-{
+struct MinMean {
     double dbWei;
     double dbDiff;
-    MinMean()
-    {
+    MinMean() {
         dbWei = 0;
         dbDiff = 0;
     }
 };
 
+//struct CalFormat
+//{
+//    VectorXi vecCellID_It;
+//    VectorXd vecMean_Ut;
+//    MatrixXd matCov;
+//
+//};
 
-struct CalFormat
-{
-    VectorXi vecCellID_It;
-    VectorXd vecMean_Ut;
-    MatrixXd matCov;
-
-};
 /**  所有的相似度算法遵循原则  **/
 /** 输入一个测试签名指针 Signatrue* 输出一个中间值容器指针 vector<TmpResult>*  **/
 

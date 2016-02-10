@@ -1,0 +1,365 @@
+﻿生成启动时间为 2016/2/10 19:41:41。
+     1>项目“D:\work\Project__lte_fingerprint\test-pj\PJ_fingerprint_positioning\nan.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\nan.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         d:\Tools\VS2010\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DBoperate.cpp IrregularGrid.cpp OutPut.cpp SimCal.cpp nan.cpp
+         nan.cpp
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\DBoperate.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(24): error C2146: 语法错误: 缺少“;”(在标识符“vecCellID_It”的前面)
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(24): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(24): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(25): error C2146: 语法错误: 缺少“;”(在标识符“vecMean_Ut”的前面)
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(25): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(25): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(26): error C2146: 语法错误: 缺少“;”(在标识符“matCov”的前面)
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(26): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(26): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>nan.cpp(84): error C2039: “SaveSignature”: 不是“CDBoperate”的成员
+                 d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\DBoperate.h(19) : 参见“CDBoperate”的声明
+     1>nan.cpp(96): error C2039: “SelectFingerPrint”: 不是“CDBoperate”的成员
+                 d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\DBoperate.h(19) : 参见“CDBoperate”的声明
+     1>nan.cpp(134): error C2039: “SelectFingerPrint”: 不是“CDBoperate”的成员
+                 d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\DBoperate.h(19) : 参见“CDBoperate”的声明
+     1>nan.cpp(194): error C2039: “SaveSignature”: 不是“CDBoperate”的成员
+                 d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\DBoperate.h(19) : 参见“CDBoperate”的声明
+     1>nan.cpp(196): error C2664: “CDBoperate::CreateOneFingerPrint”: 不能将参数 1 从“CIrregularGrid”转换为“CMatrix”
+                 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+     1>nan.cpp(212): error C2039: “SelectFingerPrint”: 不是“CDBoperate”的成员
+                 d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\DBoperate.h(19) : 参见“CDBoperate”的声明
+     1>nan.cpp(229): error C2039: “SelectFingerPrint”: 不是“CDBoperate”的成员
+                 d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\DBoperate.h(19) : 参见“CDBoperate”的声明
+     1>nan.cpp(417): error C2039: “SelectFingerPrint”: 不是“CDBoperate”的成员
+                 d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\DBoperate.h(19) : 参见“CDBoperate”的声明
+     1>nan.cpp(425): error C2039: “SelectFingerPrint”: 不是“CDBoperate”的成员
+                 d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\DBoperate.h(19) : 参见“CDBoperate”的声明
+     1>nan.cpp(646): error C3861: “sort”: 找不到标识符
+     1>nan.cpp(679): error C2039: “SelectFingerPrint”: 不是“CDBoperate”的成员
+                 d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\DBoperate.h(19) : 参见“CDBoperate”的声明
+     1>nan.cpp(687): error C2039: “SelectFingerPrint”: 不是“CDBoperate”的成员
+                 d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\DBoperate.h(19) : 参见“CDBoperate”的声明
+     1>nan.cpp(890): error C3861: “sort”: 找不到标识符
+     1>nan.cpp(1075): error C3861: “sort”: 找不到标识符
+     1>nan.cpp(1105): error C2039: “SelectFingerPrint”: 不是“CDBoperate”的成员
+                 d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\DBoperate.h(19) : 参见“CDBoperate”的声明
+     1>nan.cpp(1113): error C2039: “SelectFingerPrint”: 不是“CDBoperate”的成员
+                 d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\DBoperate.h(19) : 参见“CDBoperate”的声明
+     1>nan.cpp(1212): error C2039: “SelectFingerPrint”: 不是“CDBoperate”的成员
+                 d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\DBoperate.h(19) : 参见“CDBoperate”的声明
+     1>nan.cpp(1220): error C2039: “SelectFingerPrint”: 不是“CDBoperate”的成员
+                 d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\DBoperate.h(19) : 参见“CDBoperate”的声明
+     1>nan.cpp(1349): error C3861: “sort”: 找不到标识符
+         SimCal.cpp
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(24): error C2146: 语法错误: 缺少“;”(在标识符“vecCellID_It”的前面)
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(24): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(24): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(25): error C2146: 语法错误: 缺少“;”(在标识符“vecMean_Ut”的前面)
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(25): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(25): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(26): error C2146: 语法错误: 缺少“;”(在标识符“matCov”的前面)
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(26): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(26): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\DBoperate.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>SimCal.cpp(18): error C2871: “Eigen”: 具有该名称的命名空间不存在
+     1>SimCal.cpp(40): error C3861: “snprintf”: 找不到标识符
+     1>SimCal.cpp(75): error C2065: “VectorXd”: 未声明的标识符
+     1>SimCal.cpp(75): error C2146: 语法错误: 缺少“;”(在标识符“vcTest_Train”的前面)
+     1>SimCal.cpp(75): error C2065: “vcTest_Train”: 未声明的标识符
+     1>SimCal.cpp(76): error C2065: “vcTest_Train”: 未声明的标识符
+     1>SimCal.cpp(76): error C2039: “vecMean_Ut”: 不是“CalFormat”的成员
+                 d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(23) : 参见“CalFormat”的声明
+     1>SimCal.cpp(76): error C2039: “vecMean_Ut”: 不是“CalFormat”的成员
+                 d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(23) : 参见“CalFormat”的声明
+     1>SimCal.cpp(79): error C2065: “RowVectorXd”: 未声明的标识符
+     1>SimCal.cpp(79): error C2146: 语法错误: 缺少“;”(在标识符“RvcTest_TrainTp”的前面)
+     1>SimCal.cpp(79): error C2065: “RvcTest_TrainTp”: 未声明的标识符
+     1>SimCal.cpp(80): error C2065: “RvcTest_TrainTp”: 未声明的标识符
+     1>SimCal.cpp(80): error C2065: “vcTest_Train”: 未声明的标识符
+     1>SimCal.cpp(80): error C2228: “.transpose”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>SimCal.cpp(83): error C2065: “MatrixXd”: 未声明的标识符
+     1>SimCal.cpp(83): error C2146: 语法错误: 缺少“;”(在标识符“trainCovIv”的前面)
+     1>SimCal.cpp(83): error C2065: “trainCovIv”: 未声明的标识符
+     1>SimCal.cpp(84): error C2065: “trainCovIv”: 未声明的标识符
+     1>SimCal.cpp(84): error C2039: “matCov”: 不是“CalFormat”的成员
+                 d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(23) : 参见“CalFormat”的声明
+     1>SimCal.cpp(84): error C2228: “.inverse”的左边必须有类/结构/联合
+     1>SimCal.cpp(86): error C2039: “matCov”: 不是“CalFormat”的成员
+                 d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(23) : 参见“CalFormat”的声明
+     1>SimCal.cpp(86): error C2228: “.determinant”的左边必须有类/结构/联合
+     1>SimCal.cpp(102): error C2065: “MatrixXd”: 未声明的标识符
+     1>SimCal.cpp(102): error C2146: 语法错误: 缺少“;”(在标识符“mtTestTrainMp”的前面)
+     1>SimCal.cpp(102): error C2065: “mtTestTrainMp”: 未声明的标识符
+     1>SimCal.cpp(103): error C2065: “mtTestTrainMp”: 未声明的标识符
+     1>SimCal.cpp(103): error C2039: “matCov”: 不是“CalFormat”的成员
+                 d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(23) : 参见“CalFormat”的声明
+     1>SimCal.cpp(103): error C2039: “matCov”: 不是“CalFormat”的成员
+                 d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(23) : 参见“CalFormat”的声明
+     1>SimCal.cpp(103): error C2228: “.inverse”的左边必须有类/结构/联合
+     1>SimCal.cpp(104): error C2065: “mtTestTrainMp”: 未声明的标识符
+     1>SimCal.cpp(104): error C2228: “.rows”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>SimCal.cpp(107): error C2065: “MatrixXd”: 未声明的标识符
+     1>SimCal.cpp(107): error C2146: 语法错误: 缺少“;”(在标识符“mtIdentity”的前面)
+     1>SimCal.cpp(107): error C2065: “mtIdentity”: 未声明的标识符
+     1>SimCal.cpp(108): error C2065: “mtIdentity”: 未声明的标识符
+     1>SimCal.cpp(108): error C2228: “.setIdentity”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>SimCal.cpp(110): error C2065: “MatrixXd”: 未声明的标识符
+     1>SimCal.cpp(110): error C2146: 语法错误: 缺少“;”(在标识符“mtTestTrainMp_I”的前面)
+     1>SimCal.cpp(110): error C2065: “mtTestTrainMp_I”: 未声明的标识符
+     1>SimCal.cpp(111): error C2065: “mtTestTrainMp_I”: 未声明的标识符
+     1>SimCal.cpp(111): error C2065: “mtTestTrainMp”: 未声明的标识符
+     1>SimCal.cpp(111): error C2065: “mtIdentity”: 未声明的标识符
+     1>SimCal.cpp(111): error C2228: “.setIdentity”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>SimCal.cpp(117): error C2065: “RvcTest_TrainTp”: 未声明的标识符
+     1>SimCal.cpp(117): error C2065: “trainCovIv”: 未声明的标识符
+     1>SimCal.cpp(117): error C2065: “vcTest_Train”: 未声明的标识符
+     1>SimCal.cpp(139): error C2065: “mtTestTrainMp_I”: 未声明的标识符
+     1>SimCal.cpp(139): error C2228: “.trace”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>SimCal.cpp(141): error C2065: “mtTestTrainMp”: 未声明的标识符
+     1>SimCal.cpp(141): error C2228: “.determinant”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>SimCal.cpp(184): error C2065: “VectorXi”: 未声明的标识符
+     1>SimCal.cpp(184): error C2146: 语法错误: 缺少“;”(在标识符“vecCellID_It”的前面)
+     1>SimCal.cpp(184): error C3861: “vecCellID_It”: 找不到标识符
+     1>SimCal.cpp(185): error C2065: “VectorXd”: 未声明的标识符
+     1>SimCal.cpp(185): error C2146: 语法错误: 缺少“;”(在标识符“vecMean_Ut”的前面)
+     1>SimCal.cpp(185): error C3861: “vecMean_Ut”: 找不到标识符
+     1>SimCal.cpp(189): error C2065: “vecCellID_It”: 未声明的标识符
+     1>SimCal.cpp(197): error C2065: “MatrixXd”: 未声明的标识符
+     1>SimCal.cpp(197): error C2146: 语法错误: 缺少“;”(在标识符“matCov”的前面)
+     1>SimCal.cpp(197): error C3861: “matCov”: 找不到标识符
+     1>SimCal.cpp(208): error C3861: “matCov”: 找不到标识符
+     1>SimCal.cpp(212): error C2039: “matCov”: 不是“CalFormat”的成员
+                 d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(23) : 参见“CalFormat”的声明
+     1>SimCal.cpp(213): error C2039: “vecCellID_It”: 不是“CalFormat”的成员
+                 d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(23) : 参见“CalFormat”的声明
+     1>SimCal.cpp(214): error C2039: “vecMean_Ut”: 不是“CalFormat”的成员
+                 d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(23) : 参见“CalFormat”的声明
+     1>SimCal.cpp(392): warning C4018: “<=”: 有符号/无符号不匹配
+     1>SimCal.cpp(475): error C3861: “snprintf”: 找不到标识符
+     1>SimCal.cpp(620): error C3861: “snprintf”: 找不到标识符
+     1>SimCal.cpp(666): error C2668: “fabs”: 对重载函数的调用不明确
+                 d:\Tools\VS2010\VC\include\math.h(565): 可能是“long double fabs(long double)”
+                 d:\Tools\VS2010\VC\include\math.h(517): 或       “float fabs(float)”
+                 d:\Tools\VS2010\VC\include\math.h(118): 或       “double fabs(double)”
+                 尝试匹配参数列表“(int)”时
+     1>SimCal.cpp(763): error C3861: “snprintf”: 找不到标识符
+     1>SimCal.cpp(793): error C2668: “fabs”: 对重载函数的调用不明确
+                 d:\Tools\VS2010\VC\include\math.h(565): 可能是“long double fabs(long double)”
+                 d:\Tools\VS2010\VC\include\math.h(517): 或       “float fabs(float)”
+                 d:\Tools\VS2010\VC\include\math.h(118): 或       “double fabs(double)”
+                 尝试匹配参数列表“(int)”时
+     1>SimCal.cpp(875): error C3861: “snprintf”: 找不到标识符
+     1>SimCal.cpp(908): error C2668: “fabs”: 对重载函数的调用不明确
+                 d:\Tools\VS2010\VC\include\math.h(565): 可能是“long double fabs(long double)”
+                 d:\Tools\VS2010\VC\include\math.h(517): 或       “float fabs(float)”
+                 d:\Tools\VS2010\VC\include\math.h(118): 或       “double fabs(double)”
+                 尝试匹配参数列表“(int)”时
+     1>SimCal.cpp(992): error C3861: “snprintf”: 找不到标识符
+     1>SimCal.cpp(1111): error C3861: “snprintf”: 找不到标识符
+     1>SimCal.cpp(1209): error C3861: “snprintf”: 找不到标识符
+     1>SimCal.cpp(1303): error C3861: “snprintf”: 找不到标识符
+     1>SimCal.cpp(1329): error C2668: “fabs”: 对重载函数的调用不明确
+                 d:\Tools\VS2010\VC\include\math.h(565): 可能是“long double fabs(long double)”
+                 d:\Tools\VS2010\VC\include\math.h(517): 或       “float fabs(float)”
+                 d:\Tools\VS2010\VC\include\math.h(118): 或       “double fabs(double)”
+                 尝试匹配参数列表“(int)”时
+     1>SimCal.cpp(1403): error C3861: “snprintf”: 找不到标识符
+     1>SimCal.cpp(1429): error C2668: “fabs”: 对重载函数的调用不明确
+                 d:\Tools\VS2010\VC\include\math.h(565): 可能是“long double fabs(long double)”
+                 d:\Tools\VS2010\VC\include\math.h(517): 或       “float fabs(float)”
+                 d:\Tools\VS2010\VC\include\math.h(118): 或       “double fabs(double)”
+                 尝试匹配参数列表“(int)”时
+     1>SimCal.cpp(1518): error C3861: “snprintf”: 找不到标识符
+     1>SimCal.cpp(1544): error C2668: “fabs”: 对重载函数的调用不明确
+                 d:\Tools\VS2010\VC\include\math.h(565): 可能是“long double fabs(long double)”
+                 d:\Tools\VS2010\VC\include\math.h(517): 或       “float fabs(float)”
+                 d:\Tools\VS2010\VC\include\math.h(118): 或       “double fabs(double)”
+                 尝试匹配参数列表“(int)”时
+     1>SimCal.cpp(1765): error C3861: “snprintf”: 找不到标识符
+     1>SimCal.cpp(1969): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>SimCal.cpp(1970): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>SimCal.cpp(1988): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>SimCal.cpp(1989): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+         OutPut.cpp
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\DBoperate.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(24): error C2146: 语法错误: 缺少“;”(在标识符“vecCellID_It”的前面)
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(24): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(24): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(25): error C2146: 语法错误: 缺少“;”(在标识符“vecMean_Ut”的前面)
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(25): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(25): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(26): error C2146: 语法错误: 缺少“;”(在标识符“matCov”的前面)
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(26): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(26): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>OutPut.cpp(16): error C2511: “bool COutPut::OutPut(std::string,CIrregularGrid *,std::vector<_Ty> *,std::vector<Signatrue> *,std::vector<Signatrue> *)”:“COutPut”中没有找到重载的成员函数
+                 with
+                 [
+                     _Ty=CellMeanResult
+                 ]
+                 d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\OutPut.h(6) : 参见“COutPut”的声明
+         IrregularGrid.cpp
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(24): error C2146: 语法错误: 缺少“;”(在标识符“vecCellID_It”的前面)
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(24): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(24): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(25): error C2146: 语法错误: 缺少“;”(在标识符“vecMean_Ut”的前面)
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(25): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(25): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(26): error C2146: 语法错误: 缺少“;”(在标识符“matCov”的前面)
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(26): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(26): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>IrregularGrid.cpp(66): error C2668: “sqrt”: 对重载函数的调用不明确
+                 d:\Tools\VS2010\VC\include\math.h(589): 可能是“long double sqrt(long double)”
+                 d:\Tools\VS2010\VC\include\math.h(541): 或       “float sqrt(float)”
+                 d:\Tools\VS2010\VC\include\math.h(127): 或       “double sqrt(double)”
+                 尝试匹配参数列表“(int)”时
+     1>IrregularGrid.cpp(68): error C2668: “sqrt”: 对重载函数的调用不明确
+                 d:\Tools\VS2010\VC\include\math.h(589): 可能是“long double sqrt(long double)”
+                 d:\Tools\VS2010\VC\include\math.h(541): 或       “float sqrt(float)”
+                 d:\Tools\VS2010\VC\include\math.h(127): 或       “double sqrt(double)”
+                 尝试匹配参数列表“(int)”时
+     1>IrregularGrid.cpp(88): error C2668: “sqrt”: 对重载函数的调用不明确
+                 d:\Tools\VS2010\VC\include\math.h(589): 可能是“long double sqrt(long double)”
+                 d:\Tools\VS2010\VC\include\math.h(541): 或       “float sqrt(float)”
+                 d:\Tools\VS2010\VC\include\math.h(127): 或       “double sqrt(double)”
+                 尝试匹配参数列表“(int)”时
+     1>IrregularGrid.cpp(90): error C2668: “sqrt”: 对重载函数的调用不明确
+                 d:\Tools\VS2010\VC\include\math.h(589): 可能是“long double sqrt(long double)”
+                 d:\Tools\VS2010\VC\include\math.h(541): 或       “float sqrt(float)”
+                 d:\Tools\VS2010\VC\include\math.h(127): 或       “double sqrt(double)”
+                 尝试匹配参数列表“(int)”时
+     1>IrregularGrid.cpp(104): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>IrregularGrid.cpp(105): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>IrregularGrid.cpp(159): error C3861: “sort”: 找不到标识符
+     1>IrregularGrid.cpp(185): error C3861: “sort”: 找不到标识符
+         DBoperate.cpp
+     1>DBoperate.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\DBoperate.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(24): error C2146: 语法错误: 缺少“;”(在标识符“vecCellID_It”的前面)
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(24): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(24): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(25): error C2146: 语法错误: 缺少“;”(在标识符“vecMean_Ut”的前面)
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(25): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(25): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(26): error C2146: 语法错误: 缺少“;”(在标识符“matCov”的前面)
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(26): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\SimCal.h(26): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>DBoperate.cpp(23): warning C4018: “<”: 有符号/无符号不匹配
+     1>DBoperate.cpp(58): error C2039: “SaveSignature”: 不是“CDBoperate”的成员
+                 d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\DBoperate.h(19) : 参见“CDBoperate”的声明
+     1>DBoperate.cpp(60): error C2065: “m_Signatrue”: 未声明的标识符
+     1>DBoperate.cpp(79): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+     1>DBoperate.cpp(106): error C2511: “bool CDBoperate::CreateOneFingerPrint(CIrregularGrid)”:“CDBoperate”中没有找到重载的成员函数
+                 d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\DBoperate.h(19) : 参见“CDBoperate”的声明
+     1>DBoperate.cpp(300): error C2144: 语法错误:“int”的前面应有“;”
+     1>DBoperate.cpp(300): error C2761: “bool CDBoperate::InsertMean(int)”: 不允许成员函数重新声明
+     1>DBoperate.cpp(300): error C2065: “pDB”: 未声明的标识符
+     1>DBoperate.cpp(300): error C2065: “errmsg”: 未声明的标识符
+     1>DBoperate.cpp(303): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>DBoperate.cpp(303): error C2371: “vecmean”: 重定义；不同的基类型
+                 DBoperate.cpp(302) : 参见“vecmean”的声明
+     1>DBoperate.cpp(303): error C2065: “m_Signatrue”: 未声明的标识符
+     1>DBoperate.cpp(303): error C2227: “->vecMean”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>DBoperate.cpp(308): error C2059: 语法错误:“for”
+     1>DBoperate.cpp(308): error C2143: 语法错误 : 缺少“)”(在“;”的前面)
+     1>DBoperate.cpp(308): error C2143: 语法错误 : 缺少“;”(在“!=”的前面)
+     1>DBoperate.cpp(308): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>DBoperate.cpp(308): error C2371: “iter1”: 重定义；不同的基类型
+                 DBoperate.cpp(305) : 参见“iter1”的声明
+     1>DBoperate.cpp(308): error C2143: 语法错误 : 缺少“;”(在“++”的前面)
+     1>DBoperate.cpp(308): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>DBoperate.cpp(308): error C2371: “iter1”: 重定义；不同的基类型
+                 DBoperate.cpp(305) : 参见“iter1”的声明
+     1>DBoperate.cpp(308): error C2059: 语法错误:“)”
+     1>DBoperate.cpp(309): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>DBoperate.cpp(309): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>DBoperate.cpp(327): error C2059: 语法错误:“}”
+     1>DBoperate.cpp(327): error C2143: 语法错误 : 缺少“;”(在“}”的前面)
+     1>DBoperate.cpp(327): error C2059: 语法错误:“}”
+     1>DBoperate.cpp(331): error C2059: 语法错误:“}”
+     1>DBoperate.cpp(331): error C2143: 语法错误 : 缺少“;”(在“}”的前面)
+     1>DBoperate.cpp(331): error C2059: 语法错误:“}”
+     1>DBoperate.cpp(334): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>DBoperate.cpp(334): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>DBoperate.cpp(372): error C3861: “snprintf”: 找不到标识符
+     1>DBoperate.cpp(414): error C2039: “SelectFingerPrint”: 不是“CDBoperate”的成员
+                 d:\work\project__lte_fingerprint\test-pj\pj_fingerprint_positioning\DBoperate.h(19) : 参见“CDBoperate”的声明
+     1>DBoperate.cpp(416): error C3861: “SelectLinker”: 找不到标识符
+     1>DBoperate.cpp(417): error C3861: “SelectSig”: 找不到标识符
+     1>DBoperate.cpp(418): error C3861: “SelectMean”: 找不到标识符
+     1>DBoperate.cpp(421): error C2065: “m_TmpSigID”: 未声明的标识符
+     1>DBoperate.cpp(421): error C2228: “.end”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>DBoperate.cpp(422): error C2446: “!=”: 没有从“std::_Vector_iterator<_Myvec>”到“std::_Vector_iterator<_Myvec>”的转换
+                 with
+                 [
+                     _Myvec=std::_Vector_val<int,std::allocator<int>>
+                 ]
+                 and
+                 [
+                     _Myvec=std::_Vector_val<stuMean,std::allocator<stuMean>>
+                 ]
+                 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+     1>DBoperate.cpp(422): error C2088: “!=”: 对于 class 非法
+     1>DBoperate.cpp(422): error C2088: “++”: 对于 class 非法
+     1>DBoperate.cpp(425): error C2100: 非法的间接寻址
+     1>DBoperate.cpp(425): error C3861: “GetCoordinateFromTable”: 找不到标识符
+     1>DBoperate.cpp(426): error C2065: “m_SignatureList”: 未声明的标识符
+     1>DBoperate.cpp(426): error C2228: “.begin”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>DBoperate.cpp(427): error C2065: “m_SignatureList”: 未声明的标识符
+     1>DBoperate.cpp(427): error C2228: “.end”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>DBoperate.cpp(431): error C2100: 非法的间接寻址
+     1>DBoperate.cpp(431): error C2446: “==”: 没有从“std::_Vector_iterator<_Myvec>”到“int”的转换
+                 with
+                 [
+                     _Myvec=std::_Vector_val<stuMean,std::allocator<stuMean>>
+                 ]
+                 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+     1>DBoperate.cpp(431): error C2088: “==”: 对于 class 非法
+     1>DBoperate.cpp(475): error C2001: 常量中有换行符
+     1>DBoperate.cpp(476): error C2143: 语法错误 : 缺少“;”(在“return”的前面)
+     1>DBoperate.cpp(566): error C3646: “sqlite3_stmt”: 未知重写说明符
+     1>DBoperate.cpp(566): error C2143: 语法错误 : 缺少“;”(在“*”的前面)
+     1>DBoperate.cpp(566): error C2761: “bool CDBoperate::SelectMean(void)”: 不允许成员函数重新声明
+     1>DBoperate.cpp(566): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>DBoperate.cpp(569): error C2371: “iter1”: 重定义；不同的基类型
+                 DBoperate.cpp(305) : 参见“iter1”的声明
+     1>DBoperate.cpp(569): error C2065: “m_TmpSigID”: 未声明的标识符
+     1>DBoperate.cpp(569): error C2228: “.begin”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>DBoperate.cpp(570): error C2371: “iter2”: 重定义；不同的基类型
+                 DBoperate.cpp(306) : 参见“iter2”的声明
+     1>DBoperate.cpp(570): error C2065: “m_TmpSigID”: 未声明的标识符
+     1>DBoperate.cpp(570): error C2228: “.end”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>DBoperate.cpp(572): error C2059: 语法错误:“for”
+     1>DBoperate.cpp(572): error C2143: 语法错误 : 缺少“)”(在“;”的前面)
+     1>DBoperate.cpp(572): error C2143: 语法错误 : 缺少“;”(在“!=”的前面)
+     1>DBoperate.cpp(572): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>DBoperate.cpp(572): error C2371: “iter1”: 重定义；不同的基类型
+                 DBoperate.cpp(305) : 参见“iter1”的声明
+     1>DBoperate.cpp(572): error C2143: 语法错误 : 缺少“;”(在“++”的前面)
+     1>DBoperate.cpp(572): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>DBoperate.cpp(572): error C2371: “iter1”: 重定义；不同的基类型
+                 DBoperate.cpp(305) : 参见“iter1”的声明
+     1>DBoperate.cpp(572): error C2059: 语法错误:“)”
+     1>DBoperate.cpp(573): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>DBoperate.cpp(573): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>DBoperate.cpp(627): error C2059: 语法错误:“}”
+     1>DBoperate.cpp(627): error C2143: 语法错误 : 缺少“;”(在“}”的前面)
+     1>DBoperate.cpp(627): error C2059: 语法错误:“}”
+     1>DBoperate.cpp(630): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>DBoperate.cpp(630): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+         正在生成代码...
+     1>已完成生成项目“D:\work\Project__lte_fingerprint\test-pj\PJ_fingerprint_positioning\nan.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:05.84

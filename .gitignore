@@ -25,3 +25,16 @@ bin/
 *.lib
 *.dll
 *.txt
+*.sdf
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.layout
+*.depend
+*.cscope_file_list
+*.cbp
+/bin/
+/Debug/
+/ipch/
+/obj/

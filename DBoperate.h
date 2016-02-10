@@ -8,6 +8,7 @@
 
 #pragma comment(lib, "sqlite3.lib")
 
+
 struct SigTable
 {
     int SigID;
